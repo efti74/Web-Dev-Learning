@@ -1,0 +1,1 @@
+alert("This website is in danger")
