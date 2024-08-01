@@ -1,0 +1,34 @@
+/* :root{
+    --nav-color: white;
+    --nav-background-color: brown;
+    --body-color: lightsalmon;
+} */
+
+:root{
+    --nav-color: white;
+    --nav-background-color: rgb(30, 121, 0);
+    --body-color: rgb(112, 227, 122);
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 23px;
+    font-weight: bold;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    color: var(--nav-color);
+    padding: 20px 0;
+}
+
+body{
+    background-color: var(--body-color);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
