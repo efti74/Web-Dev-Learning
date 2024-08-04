@@ -1,0 +1,138 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav img {
+    display: flex;
+    margin-right: 20px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav ul li{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.third-container{
+    display: grid;
+    grid-template-columns: 340px 340px 340px;
+    grid-template-rows: 250px 250px 250px 250px;
+    justify-content: center;
+}
+
+.big{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    margin-top: 30px;
+}
+
+.first-container .small{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 68vw;
+    font-size: 27px;
+    margin: auto;
+}
+
+.big img{
+    width: 125px;
+    height: 39px;
+    margin-left: 20px;
+}
+
+.mac{
+    display: flex;
+    background-color: #00b6d1;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.box{
+    width: 320px;
+    height: 230px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+h4{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+button{
+    border-radius: 10px;
+    background-color: rgb(86, 200, 86);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    font-weight: bold;
+    border: solid whitesmoke;
+    cursor: pointer;
+    border: none;
+}
+
+.english{
+    margin-top: 36px;
+}
+
+#hash{
+    font-size: 8px;
+    font-weight: 500;
+    width: 21vw;
+    align-content: center;
+}
+
+#sha{
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.second-container{
+    display: flex;
+    margin-left: 220px;
+    align-items: center;
+}
+
+.second-container img{
+    width: 54px;
+    margin: 30px 10px;
+}
+
+.second-container .big{
+    font-size: 24px;
+    margin: 10px;
+}
+
+.second-container .small{
+    font-size: 15px;
+}
+
+@media screen and (max-width: 1145px) {
+    .third-container{
+        display: grid;
+        grid-template-columns: 340px;
+        gap: 12px;
+        justify-content: center;
+    }
+}
