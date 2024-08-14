@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Business Name Generator</title>
+</head>
+
+<body>
+    <script>
+        const adjectives = ["happy", "bright", "quick", "brave", "gentle", "mysterious", "calm", "strong", "curious", "elegant"];
+        const shopNames = ["Cozy", "Essentials", "Boutique", "Creations", "Market", "Threads", "Fresh ", "Charm", "Goods", "Vibes"];
+        const randomWords = ["galaxy", "whisper", "oak", "velocity", "umbrella", "horizon", "quartz", "flutter", "echo", "mosaic"];
+
+        var word1 = adjectives[Math.floor(Math.random() * adjectives.length)];
+        var word2 = shopNames[Math.floor(Math.random() * shopNames.length)];
+        var word3 = randomWords[Math.floor(Math.random() * randomWords.length)];
+
+        alert(`The business name is ${word1} ${word2} ${word3}`)
+    </script>
+</body>
+
+</html>
