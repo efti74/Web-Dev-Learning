@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Calculator</title>
+</head>
+<body>
+    <script>
+        let number = 5
+
+        // factorial by using reduce method
+        let arr = Array.from(Array(number+1).keys())
+        let factorial = arr.slice(1,).reduce((a, b) => a * b)
+        console.log(factorial)
+        // alert(`The factorial of ${number} (using reduce function) is ${factorial}`)
+
+        // factorial by using for loop method
+        var value = 1
+        for (var index = 1; index <= number; index++) {
+            value = value * index
+        }
+        console.log(value)
+        // alert(`The factorial of ${number} (using for loop) is ${value}`)
+    </script>
+</body>
+</html>
